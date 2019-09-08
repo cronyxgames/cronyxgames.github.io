@@ -686,7 +686,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2rem 0;
+			margin: 0 0 1rem 0;
 			width: 100%;
 		}
 
@@ -701,6 +701,19 @@ input, select, textarea {
 		}
 
 			.image.main img {
+				width: 100%;
+			}
+
+		.image.comfy {
+			max-width: 45%;
+			top: 0.25em;
+			padding: 0 0 1em 0;
+
+		}
+	
+			.image.comfy img {
+				/* margin-top: 8px; */
+				vertical-align: middle;
 				width: 100%;
 			}
 
