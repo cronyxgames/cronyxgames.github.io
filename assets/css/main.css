@@ -1674,11 +1674,16 @@ input, select, textarea {
 		}
 
 	#myVideo {
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		min-width: 100%; 
-		min-height: 100%;
-		opacity: 0.7;
+		position: fixed;/*From absolute*/
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		z-index: -100;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 
 	}
