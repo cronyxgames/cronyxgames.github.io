@@ -29,6 +29,8 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+			if (/* conditions */ window.screen.width > 480) 
+    			document.querySelector("#myVideo").src = "images/bg-video-mp4-medium.mp4";
 		});
 
 	// Fix: Flexbox min-height bug on IE.
